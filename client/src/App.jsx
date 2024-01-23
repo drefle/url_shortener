@@ -47,7 +47,7 @@ function App() {
       <header className='font-poppins px-4'>
         <div className="relative flex flex-col items-center w-full bg-white md:flex-row md:max-w-[68rem] md:mx-auto">
           <div className='z-20 py-8 flex w-full bg-white md:mb-0 md:w-fit'>
-            <a href="#" className='text-darkBlue text-4xl font-bold'><img src="../logo.svg" alt="logo de shortly" /></a>
+            <a href="#" className='text-darkBlue text-4xl font-bold'><img src="static/logo.svg" alt="logo de shortly" /></a>
             <button className="ml-auto md:hidden" onClick={()=>setShowMenu(!showMenu)}><img id="menu-hamburger" src="../static/icon-hamburger.svg" alt="logo menu" /></button>
           </div>
           <nav className={`${showMenu?"translate-y-[0]":"-translate-y-[100%]"}  absolute top-[100%] transition-all z-10 text-xl w-full bg-darkViolet rounded-xl px-6 py-10 text-white  font-bold flex flex-col md:text-gray md:text-sm md:ml-10 md:flex-row md:items-center md:bg-white md:p-0 md:relative md:z-0 md:translate-y-[0]`}>
