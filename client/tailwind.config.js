@@ -17,10 +17,10 @@ export default {
         'veryDarkViolet':'hsl(260, 8%, 14%)',
       },
       backgroundImage:{
-        'shorten-mobile':"url(/static/bg-shorten-mobile.svg)",
-        'shorten-desktop':"url(/static/bg-shorten-desktop.svg)",
-        'boost-mobile':"url(/static/bg-boost-mobile.svg)",
-        'boost-desktop':"url(/static/bg-boost-desktop.svg)",
+        'shorten-mobile':"url(/images/bg-shorten-mobile.svg)",
+        'shorten-desktop':"url(/images/bg-shorten-desktop.svg)",
+        'boost-mobile':"url(/images/bg-boost-mobile.svg)",
+        'boost-desktop':"url(/images/bg-boost-desktop.svg)",
         
       }
     },
