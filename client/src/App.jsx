@@ -47,8 +47,8 @@ function App() {
       <header className='font-poppins px-4'>
         <div className="relative flex flex-col items-center w-full bg-white md:flex-row md:max-w-[68rem] md:mx-auto">
           <div className='z-20 py-8 flex w-full bg-white md:mb-0 md:w-fit'>
-            <a href="#" className='text-darkBlue text-4xl font-bold'><img src="/logo.svg" alt="logo de shortly" /></a>
-            <button className="ml-auto md:hidden" onClick={()=>setShowMenu(!showMenu)}><img id="menu-hamburger" src="/icon-hamburger.svg" alt="logo menu" /></button>
+            <a href="#" className='text-darkBlue text-4xl font-bold'><img src="./logo.svg" alt="logo de shortly" /></a>
+            <button className="ml-auto md:hidden" onClick={()=>setShowMenu(!showMenu)}><img id="menu-hamburger" src="./icon-hamburger.svg" alt="logo menu" /></button>
           </div>
           <nav className={`${showMenu?"translate-y-[0]":"-translate-y-[100%]"}  absolute top-[100%] transition-all z-10 text-xl w-full bg-darkViolet rounded-xl px-6 py-10 text-white  font-bold flex flex-col md:text-gray md:text-sm md:ml-10 md:flex-row md:items-center md:bg-white md:p-0 md:relative md:z-0 md:translate-y-[0]`}>
             <div className="flex flex-col gap-8 pb-10 mb-10 border-b-[1px] border-b-grayishViolet md:flex-row md:border-none md:pb-0 md:mb-0">
@@ -67,7 +67,7 @@ function App() {
       <section className='px-4 md:max-w-[70rem] md:mx-auto'>
 
         <div className="flex flex-col md:flex-row-reverse md:gap-10">
-          <div className="w-max md:w-auto"><img className='block w-[125vw] md:w-[150%] md:max-w-fit' src="/illustration-working.svg" alt="homme qui travaille à un bureau" /></div>
+          <div className="w-max md:w-auto"><img className='block w-[125vw] md:w-[150%] md:max-w-fit' src="./illustration-working.svg" alt="homme qui travaille à un bureau" /></div>
           <div className="flex flex-col justify-center items-center gap-6 mt-10 md:text-left md:items-start md:mt-0">
             <h1 className='text-4xl font-poppins font-extrabold text-veryDarkBlue tracking-tighter leading-tight md:text-5xl lg:text-7xl md:leading-[1.2]'>More than just shorter links</h1>
             <p className='text-grayishViolet font-poppins text-xl lg:text-2xl md:max-w-xl md:leading-relaxed'>Build your brand's recognition and get detailed insights on how your links are performing</p>
@@ -134,7 +134,7 @@ function App() {
           <div className='relative flex flex-col justify-center items-center gap-6 px-8 pt-20 pb-10 bg-white rounded-lg max-w-[310px] lg:items-start lg:text-left lg:max-w-none lg:translate-y-[-20%]'>
 
             <div className='absolute top-0 translate-y-[-50%] flex justify-center items-center bg-darkViolet rounded-full w-fit p-5'>
-              <img src="/icon-brand-recognition.svg" alt="brand recognition" />
+              <img src="./icon-brand-recognition.svg" alt="brand recognition" />
             </div>
 
             <h3 className='text-xl font-extrabold font-poppins text-darkViolet'>Brand Recognition</h3>
@@ -145,7 +145,7 @@ function App() {
           <div className='relative flex flex-col justify-center items-center gap-6 px-8 pt-20 pb-10 bg-white rounded-lg max-w-[310px] before:absolute before:top-0 before:translate-y-[-100%] before:h-24 before:w-2 before:bg-cyan after:absolute after:bottom-0 after:translate-y-[100%] after:h-24 after:w-2 after:bg-cyan lg:items-start lg:text-left lg:max-w-none lg:before:left-0 lg:before:top-[40%] lg:before:translate-y-0 lg:before:h-2 lg:before:w-8 lg:before:translate-x-[-100%] lg:after:right-0 lg:after:top-[40%] lg:after:translate-y-0 lg:after:h-2 lg:after:w-8 lg:after:translate-x-[100%]'>
 
             <div className='absolute top-0 translate-y-[-50%] flex justify-center items-center bg-darkViolet rounded-full w-fit p-5'>
-              <img src="/icon-detailed-records.svg" alt="brand recognition" />
+              <img src="./icon-detailed-records.svg" alt="brand recognition" />
             </div>
 
             <h3 className='text-xl font-extrabold font-poppins text-darkViolet'>Detailed Records</h3>
@@ -156,7 +156,7 @@ function App() {
           <div className='relative flex flex-col justify-center items-center gap-6 px-8 pt-20 pb-10 bg-white rounded-lg max-w-[310px] lg:items-start lg:text-left lg:max-w-none lg:translate-y-[20%]'>
 
             <div className='absolute top-0 translate-y-[-50%] flex justify-center items-center bg-darkViolet rounded-full w-fit p-5'>
-              <img src="/icon-fully-customizable.svg" alt="brand recognition" />
+              <img src="./icon-fully-customizable.svg" alt="brand recognition" />
             </div>
 
             <h3 className='text-xl font-extrabold font-poppins text-darkViolet'>Fully Customizable</h3>
