@@ -1,8 +1,11 @@
-# React + Vite
+# Run the node.js + express server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fork the project, or just the server repository.
 
-Currently, two official plugins are available:
+Open your IDE in the server repo. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+node server.js
+
+Go back to the github repo and click on the url of the project.
+
+Now you can get a shortified your url. Enjoy!
