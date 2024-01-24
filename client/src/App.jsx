@@ -90,7 +90,7 @@ function App() {
 
           <div className='w-full mt-4 flex flex-col gap-6'>
             {listUrls.length > 0 ? (
-              listUrls.map((item,index)=>(
+              listUrls.slice(-3).reverse().map((item,index)=>(
                 <div key={index} className='bg-white rounded-md w-full py-6 flex flex-col justify-start items-start md:px-8 md:items-center md:flex-row'>
 
                   <div className="w-full  border-b-2 border-b-gray px-8 md:w-2/4 md:px-0 md:border-b-0">
